@@ -8,7 +8,7 @@ public class Class1
     }
 }
 
-public class Wrapper<T>
+public ref struct Wrapper<T>
 {
     public Wrapper(ReadOnlySpan<T> args)
     {
