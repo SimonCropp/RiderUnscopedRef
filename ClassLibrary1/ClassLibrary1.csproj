@@ -2,9 +2,13 @@
 
     <PropertyGroup>
         <LangVersion>13</LangVersion>
-        <TargetFramework>net9.0</TargetFramework>
+        <TargetFrameworks>net48;net9.0</TargetFrameworks>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.Memory" Version="4.5.5" />
+    </ItemGroup>
 
 </Project>
